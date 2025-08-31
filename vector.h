@@ -121,7 +121,7 @@ size_t vector_count(struct vector* vec);
  * \param mem_val pointer to the memory that equals a value that is stored in the vector to be deleted
  * \param size THe size of the vector element
  */
-int vector_pop_element(struct vector* vec, void* mem_val, size_t size);
+int vector_pop_element(struct vector* vec, void* mem_val, size_t size); 
 
 
 #endif
