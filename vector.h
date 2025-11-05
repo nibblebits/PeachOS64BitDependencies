@@ -72,6 +72,13 @@ void vector_reorder(struct vector* vec, VECTOR_REORDER_FUNCTION reorder_function
 
 
 /**
+ * Returns >= 0 if it exists, negative if not found
+ * \param elem_val_ptr - Must be a pointer to the memory that holds the value stored in the vector
+ */
+int vector_has(struct vector* vec, void* elem_val_ptr, size_t elem_size, size_t* index_out);
+
+
+/**
  * Overwrites an element in the vector at the given index
  * \param vec The vector to write too
  * \param index THe index in the vector to overwrite
@@ -121,7 +128,16 @@ size_t vector_count(struct vector* vec);
  * \param mem_val pointer to the memory that equals a value that is stored in the vector to be deleted
  * \param size THe size of the vector element
  */
-int vector_pop_element(struct vector* vec, void* mem_val, size_t size); 
+int vector_pop_element(struct vector* vec, void* mem_val, size_t size);
 
+
+/**
+ * Grows the vector by the given total number of elements
+ * they will all be NULL data, but can then safely be overwritten later.
+ * 
+ * Essentially similar to reserving a number of elements but the index
+ * actually grows with it.
+ */
+int vector_grow(struct vector* vec, size_t total_elements);
 
 #endif
