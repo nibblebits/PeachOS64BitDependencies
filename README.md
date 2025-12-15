@@ -14,7 +14,7 @@ In **Part 2**, we take the project to the next level:
 
 ---
 
-[![Get the Course](https://img.shields.io/badge/Get%20the%20Course-Discount%20Link-blue?style=for-the-badge&logo=appveyor)](https://dragonzap.com/course/developing-a-multithreaded-kernel-from-scratch-part-two-module-one?coupon=JUST99KERNEL)
+[![Get the Course](https://img.shields.io/badge/Get%20the%20Course%20Link-blue?style=for-the-badge&logo=appveyor)](https://dragonzap.com/course/developing-a-multithreaded-kernel-from-scratch-part-two-module-one)
 
 
 ## What You’ll Learn in This Course
