@@ -1,6 +1,7 @@
 # PeachOS64BitDependencies
 
 This repository is the dependency files for the PeachOS 64 bit kernel development series
+
 [![Get the Course](https://img.shields.io/badge/Get%20the%20Course-Discount%20Link-blue?style=for-the-badge&logo=appveyor)](https://dragonzap.com/course/developing-a-multithreaded-kernel-from-scratch-part-two-module-one?coupon=JUST99KERNEL)
 
 In this repository you will find user programs you can use with your 64-bit kernel, as well as vector libraries designed to be used during your kernel development learning. You are free to commit your own user programs and changes to this repository through the use of pull requests, so long as you maintain backwards compatability, no pull request can be accepted if the software would not be backwards compatible with the video course content's final commit.
