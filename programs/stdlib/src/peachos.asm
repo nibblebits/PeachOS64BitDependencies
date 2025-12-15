@@ -10,7 +10,6 @@
 ; Disclaimer: Contributors are hobbyists that contributed to the public source code, they are not affiliated or endorsed by Daniel McCarthy the author of the PeachOS Kernel      
 ; development video series. Contributors did not contribute to the video content or the teaching and have no intellectual property rights over the video content for the course video * material and did not contribute to the video material in anyway.
 ; 
-; IMPORTANT: This version of the PeachOS file is from the development repository, the command numbers may not line up with the k
 ;
 
 [BITS 64]
