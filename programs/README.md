@@ -23,6 +23,14 @@ The comment header for any source files you modify will look like this:
 
 You are allowed to modify and add your name as a community contributor only for any files you changed on your fork. You may not change the template.
 
+If you created the file yourself of course you are free to have your own name as the copyright holder but for it to be accepted in a pull request you will still need the disclaimer 
+```
+/*
+ * Disclaimer: Contributors are hobbyists that contributed to the public source code, they are not affiliated or endorsed by Daniel McCarthy the author of the PeachOS Kernel      
+ * development video series. Contributors did not contribute to the video content or the teaching and have no intellectual property rights over the video content for the course video * material and did not contribute to the video material in anyway.
+ */
+```
+It is important these guidelines are followed for your pull request to be accepted, these distinctions help keep seperate what my work is vs what your work is.
 
 [![Get the Course](https://img.shields.io/badge/Get%20the%20Course%20Link-blue?style=for-the-badge&logo=appveyor)](https://dragonzap.com/course/developing-a-multithreaded-kernel-from-scratch-part-two-module-one)
 
